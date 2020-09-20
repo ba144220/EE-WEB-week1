@@ -1,7 +1,6 @@
 
 
 #background{
-
 	height: 1500px;
 	width: 828px;
 	background-color: #131313;
@@ -37,15 +36,16 @@
 .time_font{
 	font-size: 30px;
 	color: white;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito', sans-serif;  /*我在google font 上面找的字體*/
 	padding: 30px;
 }
 
 .flex{
+	/* 設定 flex */
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	flex-direction: row;
+	justify-content: space-between; /* 試試看改成 space-around */
+	flex-direction: row;  /* 試試看改成 column */
 }
 
 #title_text{
@@ -72,6 +72,7 @@
 }
 
 .text{
+	/* 如何 smoothly 的改變顏色 */
 	transition: color 0.3s ease;
 	color: white;
 }

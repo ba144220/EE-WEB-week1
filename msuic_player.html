@@ -16,24 +16,32 @@
 	<!-- 先建立一個828x1692的底-->
 	<div id="background">
 
+		<!-- 建立一個黑色區塊，裡面再置中放一張圖片-->
 		<div id="display">
 			<img src="./image/display.png">
 		</div>
 
+
+		<!-- 這一塊是標題，使用flex讓下面三個子區塊是橫向排列的 -->
 		<div id="title_text" class="flex">
 
 			<img id="info"  src="./image/info.png" class='button'>
 			<div class="title_font text">《桃花過渡》 鋼琴版</div>
 			<img id="more"  src="./image/more.png" class='button'>
+
 		</div>
 
+		<!-- 這一塊是時間軸 -->
 		<img src="./image/scroll_bar.png">
 
+
+		<!-- 這一塊顯示時間 -->
 		<div id="time_text"  class="flex">
 			<div class='time_font text'>0:04</div>
 			<div class='time_font text'>5:40</div>
 		</div>
 
+		<!-- 這一塊是底下的五個按鈕 -->
 		<div id="control_buttons" class='flex'>
 			<img src='./image/dislike.png' class='button'>
 			<img src='./image/prev.png' class='button'>
